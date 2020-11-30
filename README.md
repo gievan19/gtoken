@@ -24,13 +24,13 @@
 4. The UI will display the GIE token balance which will include the purchased tokens.<br/>
  
 <h3>How to pre-qualify buyers?</h3>
-Buyers will be qualified through a mock KYC/AML check. <br/>
-For the purpose of this project, certain addresses will be whitelisted to perform transactions. <br/>
-So before a buyer can buy a token, the Crowdsale Smart Contract will check if the address is whitelisted.<br/>
-If it is then, the token exchange will take place, otherwise there will be an error.<br/>
+1. Buyers will be qualified through a mock KYC/AML check. <br/>
+2. For the purpose of this project, certain addresses will be whitelisted to perform transactions. <br/>
+3. So before a buyer can buy a token, the Crowdsale Smart Contract will check if the address is whitelisted.<br/>
+4. If it is then, the token exchange will take place, otherwise there will be an error.<br/>
 
 <h3>How is the ERC20 interface implemented on this project?</h3>
-<b>I have used the IERC20 Interface for the smart contract to use the following functions from the interface:</b>
+<b>I have used the IERC20 Interface for the smart contract to use the following functions from the interface:</b><br/>
 1. totalSupply<br/>
 2. balanceOf<br/>
 3. transfer<br/>
@@ -38,7 +38,7 @@ If it is then, the token exchange will take place, otherwise there will be an er
 5. approve<br/>
 6. transferFrom<br/>
 
-<b>As well as 2 Events:</b>
+<b>As well as 2 Events:</b><br/>
 1. event Transfer<br/>
 2. event Approval<br/>
 
