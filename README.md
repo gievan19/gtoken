@@ -1,9 +1,23 @@
 # gtoken
-<h2>This repository contains the GIE Token code base </h2>
+<b>This repository contains the GIE Token code base </b>
 
-<b>This project is called GIE Token</b>
+<h2><b>This project is called GIE Token</b></h2>
 
 <b>It is an asset tokenization which uses OpenZeppelin contracts, Truffle and React.</b>
+
+<h3>Directory Structure</h3>
+<b>This project contains the following folders:<b><br/>
+1. client - this is the folder which contains the front-end files of the project, primarily the react files that were loaded from the react truffle box. It also contains the .json files for each smart contract that were used. <br/>              
+2. contracts - this is the folder which contains the Solidity (.sol) files of the smart contracts used for this project: GieToken, GieTokenSale, KycContract, Crowdsale, Migrations <br/>
+3. migrations - contains the migration scripts, 1_initial_migration that calls the deploy function and 2_deploy_contracts, which deploy the smart contracts for the token, token sale, and kyc.<br/>
+4. test - this folders contains 2 script files which contains 6 unit test cases for token and token sale. It also uses a config file to define the common variables that were used by the scripts.<br/><br/>
+
+<b>Config, readme and other files:</b><br/>
+1. .gitattributes and .gitignore - git files and config that were used for this project<br/>
+2. LICENSE - defines the license, distribution, conditions, permissions and limitations.<br/>
+3. README.md - this file, which is an overview and walkthrough of the code base, implementation, deployment and future plans for this project.<br/>
+4. package-lock.json and truffle-config.js - config settings used for this project.<br/>
+
 
 <h3>Implementation of the project</h3>
 
@@ -52,9 +66,9 @@
 3. Once the project was built, the contents of the /client/build folder was copied over to the shared hosting directory of the this URL:<br/> ("http://gtoken.gievan.com")<br/> 
 
 <h3>Plans for Future Versions:</h3>
-1. Use Mintable Tokens instead of pre-minted tokens. <br/> 
+1. Use Mintable Tokens instead of pre-minted fixed supply tokens.<br/> 
 2. Improve UI look and feel and design<br/> 
 
 <h3>Limitations of this project:</h3>
-It is not audited for Production use.
+It is not tested and audited for Production use.
 
