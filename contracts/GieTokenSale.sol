@@ -4,7 +4,7 @@ pragma solidity >=0.6.1 <=0.7.0;
 * @title This contract is used to handle the Token Sale implementation
 * @author Evangeline Miclat
 * @notice For this project the GIE tokens will be pre-minted. The tokens will be stored to this contract's  once its created.
-* @dev All function calls are currently implemented without side effects
+* @dev  Function calls are tested through testnet
 */
 import "./Crowdsale.sol";
 import "./KycContract.sol";
