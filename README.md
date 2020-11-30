@@ -16,7 +16,9 @@
 1. .gitattributes and .gitignore - git files and config that were used for this project<br/>
 2. LICENSE - defines the license, distribution, conditions, permissions and limitations.<br/>
 3. README.md - this file, which is an overview and walkthrough of the code base, implementation, deployment and future plans for this project.<br/>
-4. package-lock.json and truffle-config.js - config settings used for this project.<br/>
+4. design_pattern_decisions.md - indicates the design approach that were used for this project.<br/>
+5. avoiding_common_attacks.md - indicates approach to address security method used to avoid common attacks and dangers.<br/>
+6. package-lock.json and truffle-config.js - config settings used for this project.<br/>
 
 
 <h3>Implementation of the project</h3>
@@ -67,7 +69,8 @@
 
 <h3>Plans for Future Versions:</h3>
 1. Use Mintable Tokens instead of pre-minted fixed supply tokens.<br/> 
-2. Improve UI look and feel and design<br/> 
+2. Apply more security and design patterns as and when implementing improvements for next versions.
+3. Improve UI look and feel and design<br/> 
 
 <h3>Limitations of this project:</h3>
 It is not tested and audited for Production use.
