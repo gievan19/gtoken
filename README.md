@@ -18,6 +18,7 @@
 3. README.md - this file, which is an overview and walkthrough of the code base, implementation, deployment and future plans for this project.<br/>
 4. design_pattern_decisions.md - indicates the design approach that were used for this project.<br/>
 5. avoiding_common_attacks.md - indicates approach to address security method used to avoid common attacks and dangers.<br/>
+6. deployed_addresses.txt - indicates the addresses used to deploy the smartcontract, rinkeby and ganache.
 6. package-lock.json and truffle-config.js - config settings used for this project.<br/>
 
 
