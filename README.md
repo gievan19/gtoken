@@ -10,7 +10,7 @@
 1. client - this is the folder which contains the front-end files of the project, primarily the react files that were loaded from the react truffle box. It also contains the .json files for each smart contract that were used. <br/>              
 2. contracts - this is the folder which contains the Solidity (.sol) files of the smart contracts used for this project: GieToken, GieTokenSale, KycContract, Crowdsale, Migrations <br/>
 3. migrations - contains the migration scripts, 1_initial_migration that calls the deploy function and 2_deploy_contracts, which deploy the smart contracts for the token, token sale, and kyc.<br/>
-4. test - this folders contains 2 script files which contains 6 unit test cases for token and token sale. It also uses a config file to define the common variables that were used by the scripts.<br/><br/>
+4. test - this folders contains 2 script files which contains 6 unit test cases for token and token sale. The test cases uses chai framework. It also uses a config file to define the common variables that were used by the scripts.<br/><br/>
 
 <b>Config, readme and other files:</b><br/>
 1. .gitattributes and .gitignore - git files and config that were used for this project<br/>
